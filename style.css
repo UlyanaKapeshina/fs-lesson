@@ -12,3 +12,11 @@ li {
 
   width: 50px;
 }
+p {
+  display: none;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  p {
+    display: block;
+  }
+}
