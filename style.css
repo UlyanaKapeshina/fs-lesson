@@ -12,11 +12,30 @@ li {
 
   width: 50px;
 }
-p {
+/* p {
   display: none;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   p {
     display: block;
   }
+} */
+div {
+  overflow-x: auto;
+}
+table {
+  min-width: 740px;
+  width: 100%;
+}
+tr,
+th {
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+}
+td,
+th {
+  width: 12%;
+  padding: 10px;
 }

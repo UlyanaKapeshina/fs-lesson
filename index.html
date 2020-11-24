@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-<p>Вы используете IE</p>
- <ul>
+<p class="uk-alert-danger" uk-alert>Вы используете IE</p>
+ <!-- <ul>
    <li>1</li>
    <li>1</li>
    <li>1</li>
@@ -19,6 +20,56 @@
    <li>1</li>
    <li>1</li>
 
- </ul>
+ </ul> -->
+ <div>
+  <table class="uk-table">
+    <thead>
+      <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Дата рождения</th>
+        <th>Пол</th>
+        <th>Страна</th>
+        <th>Паспорт</th>
+        <th>Телефон</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Иванов</td>
+        <td>Иван</td>
+        <td>Иванович</td>
+        <td>18.08.1995</td>
+        <td>Мужской</td>
+        <td>Россия</td>
+        <td>589047</td>
+        <td>12345678</td>
+      </tr>
+      <tr>
+        <td>Джонн</td>
+        <td>Смитт</td>
+        <td>Олегович</td>
+        <td>18.08.1980</td>
+        <td>Мужской</td>
+        <td>Англия</td>
+        <td>789047</td>
+        <td>81324567</td>
+      </tr>
+      <tr>
+        <td>Ковалева</td>
+        <td>Екатерина</td>
+        <td>Дмитриевна</td>
+        <td>18.08.19680</td>
+        <td>Женский</td>
+        <td>Казахстан</td>
+        <td>289047</td>
+        <td>12357458</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
 </body>
 </html>
